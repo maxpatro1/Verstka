@@ -1,0 +1,138 @@
+.nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: #023370;
+    height: 70px;
+    margin: -8px;
+}
+
+.burger{
+    height: 30px;
+    width: 30px;
+    color: white;
+}
+
+.logotip{
+    width: 239px;
+    height: 59px;
+}
+
+.logo{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.exit{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+}
+
+.iconka{
+    margin: 10px;
+}
+
+.material-icons.md-light { color: rgba(255, 255, 255, 1); }
+.header-link:hover{
+    background-color: #bb8d54;
+}
+
+.header-link{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 72px;
+    height: 70px;
+}
+
+.content{
+    height: 100%;
+    margin-top: 8px;
+    display: flex;
+    flex-direction: row;
+}
+
+.menu{
+    margin-left: -8px;
+    width: 240px;
+    background-color: #37383a;
+}
+
+.profile{
+    padding-left: 7px;
+    padding-top: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    border-bottom: 1px solid white;
+    padding-bottom: 20px;
+}
+
+.profile-photo{
+    width: 70px;
+    height: 100px;
+    border-radius: 5px;
+}
+
+.name,.email,.settings{
+    padding-left: 7px;
+    font-size: 11px;
+    color: white;
+}
+
+.news-buttons{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+}
+
+.button{
+    display: flex;
+    align-items: center;
+    width: 240px;
+    height: 43px;
+}
+
+.active{
+    background-color: #bb8d54;
+}
+
+.button:hover{
+    background-color: #023370;
+}
+
+.news{
+    width: calc(100vw - 210px);
+    margin-right: -8px;
+    background-color: #f8f9fa;
+    padding-left: 10px;
+}
+
+.card{
+    padding: 3px;
+    width: 20vw;
+    background-color: white;
+    margin-top: 50px;
+    margin-right: 6.7vw;
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+}
+
+.pic{
+    width: 20vw;
+}
+
+.data{
+    color: gray;
+    font-size: 10px;
+    margin: 1px;
+}
+
+.newspaper{
+    display: inline-flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+}
